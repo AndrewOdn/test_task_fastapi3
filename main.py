@@ -15,4 +15,4 @@ CRoute = CustomRouter(
 
 if __name__ == "__main__":
     asyncio.run(create_tables_and_rows())
-    uvicorn.run(CRoute.app, host=HOST, port=PORT, log_level='info')
+    uvicorn.run(CRoute.app, host=HOST, port=PORT, log_level="info")
