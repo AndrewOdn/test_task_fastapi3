@@ -32,5 +32,5 @@ curl --location --request DELETE 'http://localhost:8080/api/v1/statistic'
 
 More docs in Swagger:
 ```sh
-http://localhost:4015/docs
+http://localhost:8080/docs
 ```
