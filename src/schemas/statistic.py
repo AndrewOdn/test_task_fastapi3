@@ -10,7 +10,7 @@ class PostStatistic(BaseModel):
     clicks: Optional[int] = None
     cost: Optional[float] = None
 
-    @validator("date", pre=True)
+    @validator("date")
     def parse_birthdate(cls, value):
         return datetime.strptime(
             value,
